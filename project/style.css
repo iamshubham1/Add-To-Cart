@@ -1,0 +1,192 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #fff;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+nav {
+    flex: 1;
+    text-align: right;
+}
+
+nav ul {
+    display: inline-block;
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    color: #555;
+}
+
+.container {
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #300f6e;
+    color: #fff;
+    border-radius: 5px;
+    padding: 5px 10px 5px 10px;
+    transition: background 0.5s;
+}
+
+.btn:hover {
+    background: #ad5726;
+}
+
+.categries {
+    margin: 70px 0px;
+}
+
+.col-4 {
+    text-align: center;
+    flex-basis: 25%;
+    margin-bottom: 30px;
+    min-width: 200px;
+    padding: 0px 10px;
+}
+
+.col-4 img {
+    width: 100%;
+}
+
+.small-container {
+    max-width: 1080px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.title {
+    text-align: center;
+    margin: 0 auto 80px;
+    position: relative;
+    line-height: 60px;
+    color: #555;
+}
+
+.title::after {
+    content: "";
+    background: #ff523b;
+    width: 80px;
+    height: 5px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+
+/*...........add to cart styles.............. */
+
+.row-1 {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 5px 30px;
+}
+
+.col-2 {
+    flex-basis: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-right: 5px;
+    ;
+    background: #f2f2f2;
+    border-radius: 5px;
+}
+
+.col-3 {
+    flex-basis: 75%;
+    text-align: center;
+}
+
+.col-5 {
+    padding: 5px;
+    background-color: rgb(230, 230, 230);
+    margin-left: 10px;
+    flex-basis: 20%;
+}
+
+.tables {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.tables thead {
+    border: 3px outset #F5F5F5;
+    background: #d4d3d3;
+}
+
+tbody tr {
+    border: 3px outset #F5F5F5;
+    background: #e9e8e8;
+}
+
+.quantity {
+    text-align: center;
+}
+
+.remove {
+    display: inline-block;
+    border: 2px solid;
+    border-radius: 5px;
+    padding: 3px;
+}
+
+#remove {
+    background: #dddddd;
+    border-color: red;
+    color: red;
+}
+
+#add {
+    background: rgb(33, 33, 105);
+    border-color: rgb(27, 27, 46);
+    color: rgb(223, 215, 215);
+}
+
+.remove:hover {
+    background-color: #fff;
+    box-shadow: 0 4px 8px 0 black, 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+}
+
+.text_right {
+    text-align: right;
+}
+
+.payment {
+    margin-bottom: 10px;
+}
